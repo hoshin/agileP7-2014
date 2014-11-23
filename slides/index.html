@@ -28,8 +28,6 @@
         <section data-markdown data-state="bg-lavendar">
             <script type="text/template">
                 # L'Agile dans la vraie vie
-
-
                 Martin Bahier (27 Nov. 2014)
             </script>
         </section>
@@ -61,7 +59,6 @@
 
         <section data-state="bg-lavendar">
             <section data-markdown data-state="bg-lavendar">
-
                 <script type="text/template">
                     ## L'agile en 4 slides
                 </script>
@@ -83,23 +80,18 @@
 
                     S'adapter au changement pour produire de meilleurs logiciels
 
-                    * Correspondant aux attentes
-                    * De meilleure qualité
+                    * Correspondant aux attentes (périmètre, qualité, couts)
                     * En permettant à tout le monde d'apprendre et s'améliorer
-                    * Sans faire exploser les budgets
                     * Traiter le changement comme la règle et non l'exeption
                 </script>
             </section>
             <section data-markdown data-state="bg-lavendar">
                 <script type="text/template">
                     ## Comment ?
-                    * Livraisons par incréments (pas de "Big Bang")
-                    * Valider les attentes
-                    * Fail fast
-                    * Démonstrations très fréquentes
-                    * Pilotage à la valeur métier pour maximiser le retour sur investissement tôt
-                    * Petite équipe
-                    * 10 personnes max (développeurs + management + client)
+                    * Livrer souvent, et par incréments
+                        * Démonstrations fréquentes
+                    * Pilotage à la valeur métier
+                    * Petite équipe (~10 personnes, développeurs + management + client)
                 </script>
             </section>
 
@@ -125,9 +117,16 @@
             </section>
         </section>
 
-        </section>
+
 
         <section data-state="bg-lavendar">
+            <section data-markdown data-state="bg-lavendar">
+                <script type="text/template">
+                ## Ok ... et dans la vraie vie? On fait comment?
+
+                Dans la boîte à outils Agile, on va trouver des méthodologies (comme *SCRUM*). On va aussi trouver des outils comme *Kanban*.
+                    </script>
+            </section>
             <section data-markdown data-state="bg-lavendar">
                 <script type="text/template">
                     ## SCRUM, c'est quoi ?
@@ -150,14 +149,46 @@
                     Plus d'infos : http://www.scrum.org
                 </script>
             </section>
+            <section data-markdown data-state="bg-lavendar">
+                <script type="text/template">
+                    ## Kanban, kezako?
+
+                    * Outil qui vient du TPS, système de cartes pour améliorer le flux de production des usines Toyota ([https://en.wikipedia.org/wiki/Kanban](https://en.wikipedia.org/wiki/Kanban))
+                    * Adapté aux projets informatiques, il permet de montrer le flot de tâches à faire depuis le baclog jusqu'à la recette
+
+                </script>
+            </section>
+            <section data-markdown data-state="bg-lavendar">
+                <script type="text/template">
+                Kanban, ça peut ressembler ça (plateau de kanban game):
+                <img src="./images/kanban-game.jpg" alt="Un tableau kanban">
+                </script>
+            </section>
 
             <section data-markdown data-state="bg-lavendar">
                 <script type="text/template">
-                    ## Est-ce que c'est le Graal ?
+                    ... ou à ca
+                    <img src="./images/kanban-game.jpg" alt="Un tableau kanban">
+                    bref, il n'y a pas de règle, l'important c'est que cela soit utile à l'équipe
+                </script>
+            </section>
+            <section data-markdown data-state="bg-lavendar">
+                <script type="text/template">
+                ## But wait! There is more!
 
-                    **Non**
+                Il existe beaucoup d'autres outils que l'on inclut dans les projets agiles. Ils couvrent aussi bien des aspects tech, méthodologiques, dynamique d'équipe ...
+                </script>
+            </section>
 
-                    L'Agile fournit des outils pour arriver à ses fins en conservant un certain esprit, il faudra donc, par définition, ajuster l'utilisation que l'on a des outils d'un projet à l'autre.
+            <section data-markdown data-state="bg-lavendar">
+                <script type="text/template">
+                    ## Ma check-list d'outils est complète! C'est bon je peux démarrer mon premier projet agile?
+
+                    Les outils ne font bien sur pas tout, c'est aussi une question de **rigueur** et de compréhension des règles du jeu.
+
+                    <img src="./images/dilbert-agile.gif"/>
+
+                    Quand on commence en Agile, on commence avec les outils les plus simples et communs. On étoffe l'arsenal **si besoin** et au fur et à mesure.
                 </script>
             </section>
         </section>
@@ -197,7 +228,117 @@
         <section>
             <section data-markdown data-state="bg-lavendar">
                 <script type="text/template">
-                    ## Retours d'expérience
+                    ## Mélanger banque et agilité
+                </script>
+            </section>
+            <section data-markdown data-state="bg-lavendar">
+                <script type="text/template">
+                    ## Le contexte
+
+                    * Un mois pour réaliser une application en 3 parties (API, appli mobile, interface API / système bancaire)
+                    * Équipe réduite (2 devs sur une équipe de 5 personnes)
+                    * Itérations d'une semaine
+                    * Objectif clair : Démonstration au CEO, (et donc : la date de fin est fixe)
+                </script>
+            </section>
+
+            <section data-markdown data-state="bg-lavendar">
+                <script type="text/template">
+                    ## Ce qui s'est passé
+
+                    * Première journée consacrée aux plans B, C, D ...
+                    * Périmètre changé (attention qui se déplace de l'API vers l'appli)
+                    * Moyens infra dispo la dernière semaine
+                </script>
+            </section>
+            <section data-markdown data-state="bg-lavendar">
+                <script type="text/template">
+                    ## Pourquoi ça a marché ?
+
+                    * Pilotage à la valeur (ici, démo au CEO)
+                    * PO qui énonce clairement essentiel / confort / luxe et discute avec les devs
+                    * Confiance entre tous les membres
+                </script>
+            </section>
+        </section>
+
+        <section>
+        <section data-markdown data-state="bg-lavendar">
+            <script type="text/template">
+                ## ... et dans la santé publique?
+            </script>
+        </section>
+            <section data-markdown data-state="bg-lavendar">
+                <script type="text/template">
+                    ## Le contexte
+
+                    * Projet long (~2ans)
+                    * Réaliser une application connectée au DMP
+                    * Changement complet de l'équipe au fil du temps
+                    * Objectifs finaux parfois flous
+                </script>
+            </section>
+
+            <section data-markdown data-state="bg-lavendar">
+                <script type="text/template">
+                ## Des énormes changements et des objectifs pas clairs : la recette du désastre ?
+                <img style="height:400px" src="./images/explosion.jpg"/>
+
+                Pas forcément ... ça dépend de la façon de s'y prendre en fait
+               </script>
+            </section>
+
+            <section data-markdown data-state="bg-lavendar">
+                <script type="text/template">
+                    ## Phase 1 : L'agile c'est une question de méthodologie
+
+                    On a livré un logiciel de gestion de patientelle avec quelques fonctions "DMP". Bilan :
+
+                    * PO tout le temps avec l'équipe
+                    * Première version de l'appli avec un client content, le périmètre qui a bougé mais ća n'a pas bloqué ...
+                    * Méthodologie respectée
+                    * Utilisateurs finaux identifiés
+                    <br/>
+                    <br/>
+                    Bref, l'Agile dans un projet pour une agence d'État, ça marche ;)
+                </script>
+            </section>
+            <section data-markdown data-state="bg-lavendar">
+                <script type="text/template">
+                    ## Phase 2 : L'Agile, c'est aussi une question de rigueur
+
+                    Amélioration / ajouts sur l'appli initiale
+
+                    * PO beaucoup moins présent => difficultés des devs avec l'objectif à atteindre
+                    * La méthodologie est toujours là mais moins respectée (retards dans la validation, absences aux rituels ...)
+                    * La communication se durcit entre prestataire et client
+                    * Nouvelles fonctionnalités (DMP, threading ...)
+                    <br/>
+                    <br/>
+                    *"Sans rigueur l'Agile n'est rien"* - Quelqu'un
+                </script>
+            </section>
+            <!--ç-->
+            <section data-markdown data-state="bg-lavendar">
+                <script type="text/template">
+                    ## Phase 3 : L'Agile abandonné ...
+
+                    Objectif : Nouvelle application qui va utiliser le DMP
+
+                    * PO virtuellement absent
+                    * Perturbations supplémentaires venant du client (ingérance dans le dev)
+                    * Périmètre extrêmement flou pour le PO, les décisions sur le "quoi faire" arrivent au compte-gouttes
+
+                    <br/><br/>
+                    Fonctionner en Agile mitige les risques dus au trop grand manque d'information.
+
+                </script>
+            </section>
+
+            <section data-markdown data-state="bg-lavendar">
+                <script type="text/template">
+                    ## Phase 4 : .. et l'Agile rescussité!
+
                 </script>
             </section>
         </section>
